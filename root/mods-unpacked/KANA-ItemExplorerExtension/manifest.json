@@ -1,8 +1,8 @@
 {
 	"name": "ItemExplorerExtension",
 	"namespace": "KANA",
-	"version_number": "0.0.1",
-	"description": "Description of your mod...",
+	"version_number": "0.1.0",
+	"description": "Adds Item tracking and sorting to the Item Explorer mod.\nOnly items you found before in the shop will be reviled in the Item Explorer.",
 	"website_url": "https://github.com/exampleauthor/examplemod",
 	"dependencies": [
 
@@ -10,13 +10,13 @@
 	"extra": {
 		"godot": {
 			"authors": [
-				"AuthorName"
+				"KANA"
 			],
 			"optional_dependencies": [
 
 			],
 			"compatible_game_version": [
-				"0.0.1"
+				"1.0.0.3"
 			],
 			"compatible_mod_loader_version": [
 				"6.1.0"
@@ -25,7 +25,7 @@
 
 			],
 			"load_before": [
-
+				"otDan-ItemExplorer"
 			],
 			"tags": [
 
