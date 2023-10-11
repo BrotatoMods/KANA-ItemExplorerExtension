@@ -19,5 +19,6 @@ func _KANA_updated_viewed_items(items_data: Array) -> void:
 
 
 func _KANA_on_shop_item_bought(shop_item: ShopItem) -> void:
-	var current_item: Dictionary = ProgressData.data.kana_item_explorer_extension_item_data[shop_item.item_data.my_id]
-	current_item.bought = current_item.bought + 1
+	if shop_item.item_data.my_id.begins_with("item"):
+		var current_item: Dictionary = ProgressData.data.kana_item_explorer_extension_item_data[shop_item.item_data.my_id]
+		current_item.bought = current_item.bought + 1
