@@ -64,7 +64,7 @@ func KANA_sort_by_tier() -> Array:
 
 		kana_items_by_tier[item.tier].push_back(item)
 
-	for index in kana_items_by_tier.size() - 1:
+	for index in kana_items_by_tier.size():
 		kana_items_by_tier_array.append_array(kana_items_by_tier[index])
 
 	return kana_items_by_tier_array

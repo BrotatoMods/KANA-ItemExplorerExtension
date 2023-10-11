@@ -1,11 +1,11 @@
 {
 	"name": "ItemExplorerExtension",
 	"namespace": "KANA",
-	"version_number": "0.1.1",
-	"description": "Adds Item tracking and sorting to the Item Explorer mod.\nOnly items you found before in the shop will be reviled in the Item Explorer.\n\n0.1.1\n- Only track item shop items",
-	"website_url": "https://github.com/exampleauthor/examplemod",
+	"version_number": "0.1.2",
+	"description": "Adds Item tracking and sorting to the Item Explorer mod.\nOnly items you found before in the shop will be reviled in the Item Explorer.\n\n0.1.1\n- Only track item shop items\n\n0.1.2\n- Fixed red items not displayed ( ty @Rogue Abyss )",
+	"website_url": "https://github.com/BrotatoMods/KANA-ItemExplorerExtension",
 	"dependencies": [
-		"otDan-ItemExplorer"
+
 	],
 	"extra": {
 		"godot": {
